@@ -1,0 +1,89 @@
+* {
+  font-family: "Comfortaa", Arial, cursive;
+  transition: filter 0.1s;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+  background-color: #f6f6f9;
+}
+.container {
+  padding: 10px;
+}
+.topbar-black {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 2vmin;
+}
+.logo {
+  cursor: pointer;
+}
+.subtitle {
+  font-size: 12px;
+  padding: 10px;
+}
+.topbar-black img {
+  max-height: 10vmin;
+  padding: 15px;
+  box-sizing: content-box;
+}
+.beer {
+  display: flex;
+  flex-direction: column;
+}
+.beer-details {
+  padding: 15px;
+  font-size: 13px;
+  text-align: justify;
+}
+.beer-name {
+  font-weight: 700;
+  font-size: 15px;
+}
+.beer-label img {
+  width: 35vw;
+  border-radius: 16px;
+}
+.beer-label {
+  width: 98vw;
+  height: 35vmin;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: #fff;
+}
+.brewery-link {
+  font-weight: 700;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loadinganimation {
+  width: 5vmin;
+}
+.loadingmessage {
+  padding: 1vw;
+}
