@@ -45,7 +45,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "webpack-dev-server  --inline --hot",
-    "server": "node server",
+    "server": "node src/server",
     "build": "NODE_ENV=production webpack",
     "test": "jest"
   },
