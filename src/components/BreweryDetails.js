@@ -24,9 +24,9 @@ export class BreweryDetails extends Component {
         <div className="beer-details">
           <p className="beer-name">{`Brewery details: ${
             this.props.state.brewery.name
-          } ${
+          }${
             this.props.state.brewery.established
-              ? `(${this.props.state.brewery.established})`
+              ? ` (${this.props.state.brewery.established})`
               : ""
           }`}</p>
           <p className="beer-description">

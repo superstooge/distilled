@@ -55,7 +55,7 @@ export class Context extends React.Component {
   async getBeer() {
     this.toggleModal(true, "Loading random beer");
     let response = await getRandomBeer();
-    if (response.data) {
+    if (response && response.data) {
       this.setState({ beer: response.data });
       await this.getBrewery(response.data.breweries[0].id);
       this.toggleModal(false);
