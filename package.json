@@ -1,7 +1,7 @@
 {
-  "name": "biztechplus-simulator",
-  "version": "0.0.0",
-  "description": "",
+  "name": "distilled-test",
+  "version": "1.0.0",
+  "description": "Frontend test for Distilled",
   "main": "webpack.config.js",
   "dependencies": {
     "express": "^4.16.3",
